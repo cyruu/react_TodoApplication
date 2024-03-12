@@ -10,14 +10,11 @@ lerna-debug.log*
 node_modules
 dist
 dist-ssr
-public
-package.json
-package-lock.json
-vite.config.js
-.eslintrc.cjs
-postcss.config.js
-tailwind.config.js
-README.md
+
+
+
+
+
 *.local
 
 # Editor directories and files
