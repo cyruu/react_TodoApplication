@@ -40,13 +40,13 @@ export default function TodoItem({ todo, todos, setTodos, todoCategory }) {
     new Promise((res, rej) => {
       setTimeout(() => {
         res("Let the animation finish. Then filter this todo.");
-      }, 450);
+      }, 0);
     });
   const filterTodoChangePromise = () =>
     new Promise((res, rej) => {
       setTimeout(() => {
         res("Let the animation finish. Then filter this todo.");
-      }, 1000);
+      }, 200);
     });
   async function handleDelete() {
     // to add css animation
