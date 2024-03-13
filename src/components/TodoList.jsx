@@ -20,7 +20,7 @@ export default function TodoList({
     }
   }, [todoCategory, todos]);
   return (
-    <div className="w-[100%]" style={{ overflow: "hidden" }}>
+    <div className="todolist" style={{ overflow: "hidden" }}>
       {filteredTodos.map((todo) => {
         return (
           <TodoItem

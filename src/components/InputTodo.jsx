@@ -21,13 +21,12 @@ export default function InputTodos({
     }
   }
   return (
-    <form className="flex" onSubmit={handleSubmit} style={{ flex: ".8" }}>
+    <form className="flex" onSubmit={handleSubmit} style={{ flex: ".95" }}>
       <input
         type="text"
         placeholder="What's on your mind?"
-        className="outline-none bg-gray-200 p-2 text-black w-[302px]"
+        className="inputtodo outline-none bg-gray-200 p-2 text-black "
         value={inputValue}
-        style={{ width: "100%" }}
         onChange={(e) => setInputValue(e.target.value)}
       />
       <button

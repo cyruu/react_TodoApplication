@@ -14,7 +14,7 @@ export default function FilterTodo({
     <select
       value={todoCategory}
       onChange={handleCategoryChange}
-      className="w-[120px] p-2 text-center bg-gray-200 text-black outline-none"
+      className="w-[100px] p-2 text-center bg-gray-200 text-black outline-none"
     >
       <option value="All">All</option>
       <option value="Checked">Checked</option>

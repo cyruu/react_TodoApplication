@@ -12,9 +12,9 @@ function App() {
   const [filteredTodos, setFilterdTodos] = useState([]);
   return (
     <>
-      <h2 className="mb-8 text-5xl text-center">My Todo Activities</h2>
+      <h2 className="mb-8 todotitle text-center">My Todo Activities</h2>
 
-      <div className="w-[100%] todo-input-category flex mb-10 justify-between items-center">
+      <div className=" todo-input-category flex mb-10 justify-between items-center">
         <InputTodo
           setTodos={setTodos}
           todos={todos}
